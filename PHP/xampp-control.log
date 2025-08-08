@@ -1,0 +1,77 @@
+01:33:53 PM  [main] 	Initializing Control Panel
+01:33:53 PM  [main] 	Windows Version:  Home  64-bit
+01:33:53 PM  [main] 	XAMPP Version: 8.2.12
+01:33:53 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+01:33:53 PM  [main] 	Running with Administrator rights - good!
+01:33:53 PM  [main] 	XAMPP Installation Directory: "c:\users\coold\vscode\sem 3\php\"
+01:33:53 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+01:33:53 PM  [main] 	Checking for prerequisites
+01:33:54 PM  [main] 	All prerequisites found
+01:33:54 PM  [main] 	Initializing Modules
+01:33:54 PM  [mysql] 	Problem detected!
+01:33:54 PM  [mysql] 	Port 3306 in use by "Unable to open process"!
+01:33:54 PM  [mysql] 	MySQL WILL NOT start without the configured ports free!
+01:33:54 PM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+01:33:54 PM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+01:33:54 PM  [Tomcat] 	Problem detected!
+01:33:54 PM  [Tomcat] 	Port 8080 in use by "C:\oraclexe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe"!
+01:33:54 PM  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+01:33:54 PM  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+01:33:54 PM  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+01:33:54 PM  [main] 	Starting Check-Timer
+01:33:54 PM  [main] 	Control Panel Ready
+01:34:00 PM  [Apache] 	Installing service...
+01:34:01 PM  [Apache] 	Successful!
+01:34:05 PM  [mysql] 	Installing service...
+01:34:05 PM  [mysql] 	Successful!
+01:34:13 PM  [Apache] 	Attempting to start Apache service...
+01:34:13 PM  [Apache] 	Status change detected: running
+01:34:15 PM  [mysql] 	Problem detected!
+01:34:15 PM  [mysql] 	Port 3306 in use by "Unable to open process"!
+01:34:15 PM  [mysql] 	MySQL WILL NOT start without the configured ports free!
+01:34:15 PM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+01:34:15 PM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+01:34:15 PM  [mysql] 	Attempting to start MySQL service...
+01:34:15 PM  [mysql] 	Status change detected: running
+01:34:22 PM  [mysql] 	Status change detected: stopped
+01:34:22 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+01:34:22 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+01:34:22 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+01:34:22 PM  [mysql] 	Press the Logs button to view error logs and check
+01:34:22 PM  [mysql] 	the Windows Event Viewer for more clues
+01:34:22 PM  [mysql] 	If you need more help, copy and post this
+01:34:22 PM  [mysql] 	entire log window on the forums
+01:57:20 PM  [main] 	Deinitializing Modules
+01:57:20 PM  [main] 	Deinitializing Control Panel
+
+12:20:25 PM  [main] 	Initializing Control Panel
+12:20:25 PM  [main] 	Windows Version:  Home  64-bit
+12:20:25 PM  [main] 	XAMPP Version: 8.2.12
+12:20:25 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+12:20:25 PM  [main] 	Running with Administrator rights - good!
+12:20:25 PM  [main] 	XAMPP Installation Directory: "c:\users\coold\vscode\sem 3\php\"
+12:20:25 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+12:20:25 PM  [main] 	Checking for prerequisites
+12:20:26 PM  [main] 	All prerequisites found
+12:20:26 PM  [main] 	Initializing Modules
+12:20:26 PM  [Apache] 	XAMPP Apache Service is already running on port 80
+12:20:26 PM  [Apache] 	XAMPP Apache Service is already running on port 443
+12:20:26 PM  [mysql] 	XAMPP MySQL Service is already running on port 3306
+12:20:26 PM  [Tomcat] 	Problem detected!
+12:20:26 PM  [Tomcat] 	Port 8080 in use by "C:\oraclexe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe"!
+12:20:26 PM  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+12:20:26 PM  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+12:20:26 PM  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+12:20:26 PM  [main] 	Starting Check-Timer
+12:20:26 PM  [main] 	Control Panel Ready
+12:20:29 PM  [Apache] 	Attempting to stop Apache service...
+12:20:30 PM  [mysql] 	Attempting to stop MySQL service...
+12:20:31 PM  [mysql] 	Status change detected: stopped
+12:20:32 PM  [Apache] 	Status change detected: stopped
+12:20:33 PM  [Apache] 	Attempting to start Apache service...
+12:20:34 PM  [Apache] 	Status change detected: running
+12:20:35 PM  [mysql] 	Attempting to start MySQL service...
+12:20:35 PM  [mysql] 	Status change detected: running
+01:56:58 PM  [main] 	Deinitializing Modules
+01:56:58 PM  [main] 	Deinitializing Control Panel
+

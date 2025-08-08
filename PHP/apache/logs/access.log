@@ -1,0 +1,5 @@
+::1 - - [31/Jul/2025:13:35:37 +0530] "GET /color.php HTTP/1.1" 200 4 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+::1 - - [31/Jul/2025:13:35:37 +0530] "GET /favicon.ico HTTP/1.1" 200 30894 "http://localhost/color.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+10.35.162.4 - - [04/Aug/2025:10:13:58 +0530] "GET / HTTP/1.0" 302 138 "-" "-"
+::1 - - [04/Aug/2025:12:22:41 +0530] "GET /program.php HTTP/1.1" 200 1720 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+::1 - - [04/Aug/2025:12:22:41 +0530] "GET /style.css HTTP/1.1" 404 295 "http://localhost/program.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
