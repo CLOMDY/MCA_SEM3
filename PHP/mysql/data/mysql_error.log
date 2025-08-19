@@ -266,3 +266,51 @@ Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2025-08-13 10:53:45 0 [Note] Added new Master_info '' to hash table
 2025-08-13 10:53:45 0 [Note] C:\Users\coold\vscode\sem 3\php\mysql\bin\mysqld.exe: ready for connections.
 Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-08-13 15:02:44 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 5604
+2025-08-13 15:02:44 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-08-13 15:02:44 0 [Note] InnoDB: Uses event mutexes
+2025-08-13 15:02:44 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-08-13 15:02:44 0 [Note] InnoDB: Number of pools: 1
+2025-08-13 15:02:44 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-08-13 15:02:44 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-08-13 15:02:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-08-13 15:02:44 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300378
+2025-08-13 15:02:44 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-08-13 15:02:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-08-13 15:02:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-08-13 15:02:44 0 [Note] InnoDB: Setting file 'C:\Users\coold\VSCODE\SEM 3\PHP\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-08-13 15:02:44 0 [Note] InnoDB: File 'C:\Users\coold\VSCODE\SEM 3\PHP\mysql\data\ibtmp1' size is now 12 MB.
+2025-08-13 15:02:44 0 [Note] InnoDB: Waiting for purge to start
+2025-08-13 15:02:45 0 [Note] InnoDB: 10.4.32 started; log sequence number 300387; transaction id 170
+2025-08-13 15:02:45 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\coold\VSCODE\SEM 3\PHP\mysql\data\ib_buffer_pool
+2025-08-13 15:02:45 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-08-13 15:02:45 0 [Note] InnoDB: Buffer pool(s) load completed at 250813 15:02:45
+2025-08-13 15:02:45 0 [Note] Server socket created on IP: '::'.
+2025-08-13 15:02:45 0 [Note] Reading of all Master_info entries succeeded
+2025-08-13 15:02:45 0 [Note] Added new Master_info '' to hash table
+2025-08-13 15:02:45 0 [Note] C:\Users\coold\vscode\sem 3\php\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-08-13 22:16:04 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 5732
+2025-08-13 22:16:04 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-08-13 22:16:04 0 [Note] InnoDB: Uses event mutexes
+2025-08-13 22:16:04 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-08-13 22:16:04 0 [Note] InnoDB: Number of pools: 1
+2025-08-13 22:16:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-08-13 22:16:04 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-08-13 22:16:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-08-13 22:16:04 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300396
+2025-08-13 22:16:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-08-13 22:16:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-08-13 22:16:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-08-13 22:16:05 0 [Note] InnoDB: Setting file 'C:\Users\coold\VSCODE\SEM 3\PHP\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-08-13 22:16:05 0 [Note] InnoDB: File 'C:\Users\coold\VSCODE\SEM 3\PHP\mysql\data\ibtmp1' size is now 12 MB.
+2025-08-13 22:16:05 0 [Note] InnoDB: Waiting for purge to start
+2025-08-13 22:16:05 0 [Note] InnoDB: 10.4.32 started; log sequence number 300405; transaction id 170
+2025-08-13 22:16:05 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\coold\VSCODE\SEM 3\PHP\mysql\data\ib_buffer_pool
+2025-08-13 22:16:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-08-13 22:16:05 0 [Note] InnoDB: Buffer pool(s) load completed at 250813 22:16:05
+2025-08-13 22:16:05 0 [Note] Server socket created on IP: '::'.
+2025-08-13 22:16:05 0 [Note] Reading of all Master_info entries succeeded
+2025-08-13 22:16:05 0 [Note] Added new Master_info '' to hash table
+2025-08-13 22:16:05 0 [Note] C:\Users\coold\vscode\sem 3\php\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
