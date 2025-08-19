@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <form action="https://www.xnu.com/formtest.asp/">
+        <p>
+            <label for="fname"> Name: </label>
+            <input type="text" name="fname" id="fname">
+        </p>
+        <p>
+            <label for="phone"> Phone: </label>
+            <input type="tel" name="phone" id="phone">
+        </p>
+        <p>
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email">
+        </p>
+
+        <fieldset>
+            <legend>Which taxi do you rerquire?</legend>
+            <p>
+                <input type="radio" name="car" id="taxi1" value="car"> Car
+            </p>
+            <p>
+                <input type="radio" name="car" id="taxi1" value="van"> Van
+            </p>
+            <p>
+                <input type="radio" name="car" id="taxi1" value="tuk"> Tuk Tuk
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Extra</legend>
+            <p>
+                <input type="checkbox" name="extra" id="taxi1" value="car"> Baby Seat
+            </p>
+            <p>
+                <input type="checkbox" name="extra" id="taxi1" value="van"> Wheelchair Access
+            </p>
+            <p>
+                <input type="checkbox" name="extra" id="taxi1" value="tuk"> Stock Tip
+            </p>
+        </fieldset>
+
+        <p>
+            <label for="dateTime">
+                Date and Time:
+            </label>
+            <input type="datetime-local" name="dateTime" id="dateTime">
+        </p>
+
+        <p>
+            <label for="PickupPlace">
+                Pickup Place:
+            </label>
+            <select name="PickupPlace" id="PickupPlace">
+                <option value="default">Select One</option>
+                <option value="Airport">Airport</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Home">Home</option>
+                <option value="Other">Other</option>
+            </select>
+        </p>
+
+        <!-- <p>
+            <label for = "DropoffPlace">
+                Dropoff Place:
+            </label>
+            <select name="DropoffPlace" id="DropoffPlace">
+                <option value="" selected="selected">Select One</option>
+                <option value="Airport">Airport</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Home">Home</option>
+                <option value="Other">Other</option>
+            </select>
+        </p> -->
+
+        <p>
+            <label for="DropoffPlace">
+                Dropoff Place:
+            </label>
+
+            <input type="text" name="DropoffPlace" list="destinations" required>
+            <datalist id="destinations">
+                <option value="Airport">
+                <option value="Hotel">
+                <option value="Home">
+                <option value="Other">
+            </datalist>
+        </p>
+
+        <p>
+            <label for="SpeacialInstructions">
+                Special Instructions:
+            </label>
+            <textarea name="SpeacialInstructions" id="SpeacialInstructions" maxlength="300"></textarea>
+        </p>
+
+
+        <p>
+            <input type="submit" value="Submit Booking">
+        </p>
+    </form>
+</body>
+
+</html>
