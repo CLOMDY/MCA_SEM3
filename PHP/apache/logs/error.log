@@ -122,3 +122,5 @@
 [Wed Aug 13 22:16:06.100749 2025] [ssl:warn] [pid 8636:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Aug 13 22:16:06.141269 2025] [ssl:warn] [pid 8636:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Aug 13 22:16:06.193719 2025] [mpm_winnt:notice] [pid 8636:tid 456] AH00354: Child: Starting 150 worker threads.
+[Wed Aug 20 13:40:55.463798 2025] [php:warn] [pid 8636:tid 1988] [client ::1:49695] PHP Warning:  Undefined array key "num1" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\sumNumberPOST.php on line 2, referer: http://localhost/sumNumberPOST.html
+[Wed Aug 20 13:40:55.463798 2025] [php:warn] [pid 8636:tid 1988] [client ::1:49695] PHP Warning:  Undefined array key "num2" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\sumNumberPOST.php on line 3, referer: http://localhost/sumNumberPOST.html
