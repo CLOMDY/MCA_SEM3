@@ -1,0 +1,24 @@
+<!-- you are developing a loging system for website. the user needs to provide a username and password.
+if the username is "admin" and the password is "password123", the user should be granted access and redirected to the
+admin dashboard. otherwise, they should revieve an error message saying, "Invalid username or password".
+write the php code to handle this scenario using conditional statments. -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <form action="login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+

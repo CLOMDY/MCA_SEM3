@@ -124,3 +124,5 @@
 [Wed Aug 13 22:16:06.193719 2025] [mpm_winnt:notice] [pid 8636:tid 456] AH00354: Child: Starting 150 worker threads.
 [Wed Aug 20 13:40:55.463798 2025] [php:warn] [pid 8636:tid 1988] [client ::1:49695] PHP Warning:  Undefined array key "num1" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\sumNumberPOST.php on line 2, referer: http://localhost/sumNumberPOST.html
 [Wed Aug 20 13:40:55.463798 2025] [php:warn] [pid 8636:tid 1988] [client ::1:49695] PHP Warning:  Undefined array key "num2" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\sumNumberPOST.php on line 3, referer: http://localhost/sumNumberPOST.html
+[Mon Aug 25 09:43:46.880899 2025] [php:warn] [pid 8636:tid 1988] [client 10.35.161.152:53044] PHP Warning:  Undefined array key "HTTP_HOST" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\index.php on line 7
+[Mon Aug 25 11:55:38.817231 2025] [php:warn] [pid 8636:tid 1988] [client 10.35.161.241:63815] PHP Warning:  Undefined array key "HTTP_HOST" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\index.php on line 7

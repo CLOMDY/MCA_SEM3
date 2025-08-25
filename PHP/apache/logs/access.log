@@ -9,3 +9,5 @@
 ::1 - - [20/Aug/2025:13:40:50 +0530] "GET /sumNumberPOST.html HTTP/1.1" 200 582 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
 ::1 - - [20/Aug/2025:13:40:55 +0530] "POST /sumNumberPOST.php HTTP/1.1" 200 304 "http://localhost/sumNumberPOST.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
 ::1 - - [20/Aug/2025:13:41:48 +0530] "POST /sumNumberPOST.php HTTP/1.1" 200 27 "http://localhost/sumNumberPOST.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+10.35.161.152 - - [25/Aug/2025:09:43:46 +0530] "GET / HTTP/1.0" 302 138 "-" "-"
+10.35.161.241 - - [25/Aug/2025:11:55:38 +0530] "GET / HTTP/1.0" 302 138 "-" "-"

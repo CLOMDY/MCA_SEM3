@@ -1,17 +1,14 @@
-<html lang="en">
+<?php
+    $bookTitle = $_POST["title"];
+    $authurName = $_POST["author"];
+    $quantity = $_POST["quantity"];
+    $price = $_POST["price"];
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Online Book Store</title>
-</head>
-
-<body>
-    <?php
-    
-    ?>
-
-</body>
-
-</html>
+    echo "<h2>Book Store</h2>";
+    echo "<p>Book Title: $bookTitle</p>";
+    echo "<p>Author Name: $authurName</p>";
+    echo "<p>Quantity: $quantity</p>";
+    echo "<p>Price: $price</p>";
+    $total = $quantity * $price;
+    echo "<p>Total Price: $total</p>";
+?>

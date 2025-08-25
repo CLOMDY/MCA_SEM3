@@ -1,0 +1,37 @@
+<!-- your are developing a simple online bookstore where users can input details about the books they want to buy.
+you need to create a PHP script that collect the following information from the user:
+1. Book title
+2. Author name
+3. Quantity
+4. Price per book
+
+Based on this information, the script should calculate the total price for the selected quantity and display it along with
+a summary of the user's order -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online Book Store</title>
+</head>
+
+<body>
+    <form action="bookStore.php" method="post">
+        <label for="title">Book Title:</label>
+        <input type="text" name="title" id="title" required>
+        <br>
+        <label for="author">Author Name:</label>
+        <input type="text" name="author" id="author" required>
+        <br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" required>
+        <br>
+        <label for="price">Price per Book:</label>
+        <input type="number" step="0.01" name="price" id="price" required>
+        <br>
+        <input type="submit" value="Submit Order">
+    </form>
+</body>
+
+</html>
