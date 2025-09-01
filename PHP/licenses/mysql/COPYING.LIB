@@ -939,7 +939,7 @@ clause, it is equivalent to grouping on all rows.
 
           mysql> select student.student_name,COUNT(*)
                      from student,course
-                     where student.student_id=course.student_id
+                     where student.user_id=course.user_id
                      GROUP BY student_name;
 
      `COUNT(*)' is somewhat different in that it returns a count of the
