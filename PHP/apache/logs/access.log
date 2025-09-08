@@ -66,3 +66,4 @@
 ::1 - - [28/Aug/2025:02:24:56 +0530] "GET /lost-and-found/js/bootstrap5.min.js HTTP/1.1" 200 80427 "http://localhost/lost-and-found/index.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
 ::1 - - [28/Aug/2025:02:24:56 +0530] "GET /lost-and-found/assets/lpu_campus.jpg HTTP/1.1" 200 796360 "http://localhost/lost-and-found/css/style.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
 ::1 - - [28/Aug/2025:02:28:35 +0530] "POST /lost-and-found/methods/login.php HTTP/1.1" 200 610 "http://localhost/lost-and-found/index.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+10.35.174.117 - - [08/Sep/2025:11:45:04 +0530] "GET / HTTP/1.0" 302 138 "-" "-"

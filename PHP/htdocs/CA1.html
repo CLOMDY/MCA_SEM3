@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <h2>Form</h2>
+    <form method = "post" action="ca1.php">
+        <label>Name: </label>
+        <input type = "text" name = "name" required>
+        <br/><br/>
+
+        <label>Email: </label>
+        <input type = "email" name = "email" required>
+        <br/><br/>
+
+        <label>Course: </label>
+        <select name = "course" required>
+            <option value = "">Select a Course</option>
+            <option value = "PHP">PHP</option>
+            <option value = "Python">Python</option>
+            <option value = "etc">ETC</option>
+        </select>
+        <br/><br/>
+
+        <label>Rating: </label>
+        <input type = "radio" name = "rating" value = "1" required>1
+        <input type = "radio" name = "rating" value = "2">2
+        <input type = "radio" name = "rating" value = "3">3
+        <input type = "radio" name = "rating" value = "4">4
+        <input type = "radio" name = "rating" value = "5">5
+        <br/><br/>
+
+        <label>Comments: </label>
+        <textarea name = "comments"></textarea>
+        <br/><br/>
+
+        <input type = "submit" value = "Submit">
+    </form>
+
+</body>
+</html>
