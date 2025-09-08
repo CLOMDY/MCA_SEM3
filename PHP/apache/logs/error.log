@@ -190,3 +190,6 @@
 [Mon Sep 08 10:38:27.035747 2025] [core:notice] [pid 5788:tid 428] AH00094: Command line: 'C:\\Users\\coold\\vscode\\sem 3\\php\\apache\\bin\\httpd.exe -d C:/Users/coold/VSCODE/SEM 3/PHP/apache'
 [Mon Sep 08 10:38:27.035747 2025] [mpm_winnt:notice] [pid 5788:tid 428] AH00418: Parent: Created child process 9200
 [Mon Sep 08 10:38:27.366348 2025] [ssl:warn] [pid 9200:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 08 10:38:27.394336 2025] [ssl:warn] [pid 9200:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 08 10:38:27.415814 2025] [mpm_winnt:notice] [pid 9200:tid 440] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 08 11:45:04.285692 2025] [php:warn] [pid 9200:tid 1992] [client 10.35.174.117:60438] PHP Warning:  Undefined array key "HTTP_HOST" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\index.php on line 7
