@@ -1,0 +1,159 @@
+<!-- Create a personal portfolio website using HTML and CSS with the following features:
+•	Header: Includes your name, professional tagline, and a navigation menu with links to different sections 
+    (About, Skills, Projects, Contact).
+•	About Me Section: Brief introduction with an image of yourself.
+•	Skills Section: A table or list of your technical skills (e.g., programming languages, frameworks).
+•	Projects Section: Showcase 3-5 projects with titles, descriptions, and links to project repositories or demo pages.
+•	Contact Form: A simple form with fields for Name, Email, and Message. -->
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA1</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Aadarsh Kumar | Front-End Developer
+        </h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+    </header>
+    <br />
+    <br />
+    <hr />
+    <hr />
+    <hr />
+    <br />
+    <br />
+    <section id="about">
+        <h2>About me</h2>
+        <img src="./IMG_20250321_180842-EDIT (1)-Photoroom.png" alt="Aadarsh Kumar" width="200" height="200">
+        <p>Hello! I'm Aadarsh Kumar, a passionate front-end developer with a knack for creating engaging
+            and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I enjoy bringing
+            designs
+            to life and continuously learning new technologies to enhance my skills.
+        </p>
+    </section>
+
+    <br />
+    <br />
+    <hr />
+    <hr />
+    <hr />
+    <br />
+    <br />
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Bootstrap</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+    <br />
+    <br />
+    <hr />
+    <hr />
+    <hr />
+    <br />
+    <br />
+    <section id="projects">
+        <div class="project">
+            <div class="project-content">
+                <h3>CARTOON WORLD</h3>
+                <p><strong>Tech:</strong> React, Bootstrap, JavaScript, CSS</p>
+                <p>Responsive cartoon streaming site with genre filters, carousel slider, and dynamic movie data
+                    handling.</p>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/CLOMDY/CartoonWorld" target="_blank" class="btn">GitHub</a>
+                <a href="http://clomdy-cartoon-world.netlify.app/" target="_blank" class="btn">Site</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h3>GAMEHUB</h3>
+                <p><strong>Tech:</strong> Angular, NodeJS, TypeScript</p>
+                <p>Game listing platform with optimized UI for data handling and admin editing.</p>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/CLOMDY/GAMEHUB" target="_blank" class="btn">GitHub</a>
+                <a href="https://gamehub-zxsl.onrender.com/" target="_blank" class="btn">Site</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h3>Resto</h3>
+                <p><strong>Tech:</strong> Ionic, Angular</p>
+                <p>Mobile-first restaurant web app with customizable templates for business owners.</p>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/CLOMDY/Resto" target="_blank" class="btn">GitHub</a>
+                <a href="https://resto-9x4c.onrender.com/" target="_blank" class="btn">Site</a>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <div class="project-content">
+                <h3>QuickPark</h3>
+                <p><strong>Tech:</strong> Flutter, Dart, Firebase</p>
+                <p>Location-based carpooling and parking application with energy-optimized UX.</p>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/CLOMDY/QuickPark" target="_blank" class="btn">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h3>ExpenseTracker</h3>
+                <p><strong>Tech:</strong> SQL, HTML, T-SQL</p>
+                <p>Budget tracking interface with visual analytics for categorized expenses.</p>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/CLOMDY/ExpenseTracker" target="_blank" class="btn">GitHub</a>
+            </div>
+        </div>
+    </section>
+    <br />
+    <br />
+    <hr />
+    <hr />
+    <hr />
+    <br />
+    <br />
+    <section id="contact">
+        <form>
+            <label name="name">Name:</label>
+            <input type="text">
+            <br>
+            <label name="email">Email:</label>
+            <input type="email">
+            <br>
+            <label name="message">Message:</label>
+            <textarea name="message" rows="5" cols="30"></textarea>
+        </form>
+    </section>
+
+</body>
+
+</html>
