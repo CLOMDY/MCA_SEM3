@@ -75,3 +75,7 @@
 ::1 - - [08/Sep/2025:13:24:41 +0530] "GET /CA1_switch.php HTTP/1.1" 200 6 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
 ::1 - - [08/Sep/2025:13:25:01 +0530] "POST /ca1.php HTTP/1.1" 200 93 "http://localhost/CA1.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
 ::1 - - [08/Sep/2025:13:25:07 +0530] "POST /ca1.php HTTP/1.1" 200 96 "http://localhost/CA1.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+::1 - - [10/Sep/2025:13:41:01 +0530] "GET /CA1.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+::1 - - [10/Sep/2025:13:41:26 +0530] "GET /CA1_switch.html HTTP/1.1" 404 295 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+::1 - - [10/Sep/2025:13:41:35 +0530] "GET /CA1_switch.php HTTP/1.1" 200 6 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+::1 - - [10/Sep/2025:13:46:35 +0530] "-" 408 - "-" "-"
