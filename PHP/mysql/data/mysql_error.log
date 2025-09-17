@@ -536,3 +536,14 @@ Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2025-09-10 10:58:34 0 [Note] Added new Master_info '' to hash table
 2025-09-10 10:58:34 0 [Note] C:\Users\coold\vscode\sem 3\php\mysql\bin\mysqld.exe: ready for connections.
 Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-09-17 12:55:18 0 [Note] C:\Users\coold\vscode\sem 3\php\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-09-17 12:55:18 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-09-17 12:55:18 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-09-17 12:55:19 0 [Note] InnoDB: Starting shutdown...
+2025-09-17 12:55:19 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\coold\VSCODE\SEM 3\PHP\mysql\data\ib_buffer_pool
+2025-09-17 12:55:19 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-09-17 12:55:19 0 [Note] InnoDB: Buffer pool(s) dump completed at 250917 12:55:19
+2025-09-17 12:55:19 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-09-17 12:55:19 0 [Note] InnoDB: Shutdown completed; log sequence number 300495; transaction id 171
+2025-09-17 12:55:19 0 [Note] C:\Users\coold\vscode\sem 3\php\mysql\bin\mysqld.exe: Shutdown complete
+
