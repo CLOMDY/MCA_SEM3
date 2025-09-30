@@ -190,3 +190,26 @@
 01:54:06 PM  [main] 	Deinitializing Modules
 01:54:06 PM  [main] 	Deinitializing Control Panel
 
+01:32:27 PM  [main] 	Initializing Control Panel
+01:32:27 PM  [main] 	Windows Version:  Home  64-bit
+01:32:27 PM  [main] 	XAMPP Version: 8.2.12
+01:32:27 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+01:32:27 PM  [main] 	Running with Administrator rights - good!
+01:32:27 PM  [main] 	XAMPP Installation Directory: "c:\users\coold\vscode\sem 3\php\"
+01:32:27 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+01:32:27 PM  [main] 	Checking for prerequisites
+01:32:28 PM  [main] 	All prerequisites found
+01:32:28 PM  [main] 	Initializing Modules
+01:32:28 PM  [Apache] 	XAMPP Apache Service is already running on port 80
+01:32:28 PM  [Apache] 	XAMPP Apache Service is already running on port 443
+01:32:28 PM  [mysql] 	XAMPP MySQL Service is already running on port 3306
+01:32:28 PM  [Tomcat] 	Problem detected!
+01:32:28 PM  [Tomcat] 	Port 8080 in use by "C:\oraclexe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe"!
+01:32:28 PM  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+01:32:28 PM  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+01:32:28 PM  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+01:32:28 PM  [main] 	Starting Check-Timer
+01:32:28 PM  [main] 	Control Panel Ready
+02:00:34 PM  [main] 	Deinitializing Modules
+02:00:34 PM  [main] 	Deinitializing Control Panel
+

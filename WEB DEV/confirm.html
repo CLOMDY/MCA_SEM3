@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .effects {
+            background-color: yellow;
+        }
+    </style>
+    <title>Reference</title>
+    <script type="text/javascript">
+        function DeleteClick() {
+            x = confirm("Are you sure want to Delete?");
+            if (x == true) {
+                alert("Record Deleted");
+            } else {
+                alert("Canceled..");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="DeleteClick()">Delete</button>
+</body>
+
+</html>
