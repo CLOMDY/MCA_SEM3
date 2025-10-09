@@ -166,3 +166,4 @@
 ::1 - - [26/Sep/2025:13:41:09 +0530] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
 ::1 - - [26/Sep/2025:13:41:09 +0530] "POST /phpmyadmin/index.php?route=/database/structure/favorite-table&ajax_request=1&favorite_table=1&sync_favorite_tables=1 HTTP/1.1" 200 155 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
 ::1 - - [26/Sep/2025:13:41:09 +0530] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1466 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+10.35.162.189 - - [06/Oct/2025:11:06:22 +0530] "GET / HTTP/1.0" 302 138 "-" "-"

@@ -242,3 +242,4 @@
 [Tue Sep 30 10:57:55.369119 2025] [ssl:warn] [pid 8648:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Sep 30 10:57:55.419118 2025] [ssl:warn] [pid 8648:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Sep 30 10:57:55.477642 2025] [mpm_winnt:notice] [pid 8648:tid 456] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 06 11:06:22.094255 2025] [php:warn] [pid 8648:tid 1968] [client 10.35.162.189:59574] PHP Warning:  Undefined array key "HTTP_HOST" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\index.php on line 7
