@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mouse</title>
+    <script>
+        function Ad1() {
+            document.getElementById("pic").src = "https://thumb.ac-illust.com/f4/f40d4e022d45a3cdba11e6a744032f09_t.jpeg";
+        }
+        function Ad2() {
+            document.getElementById("pic").src = "https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg";
+        }
+        function ShowOffer() {
+            document.getElementById("offer").src = "https://thumb.ac-illust.com/f4/f40d4e022d45a3cdba11e6a744032f09_t.jpeg";
+        }
+        function HideOffer() {
+            document.getElementById("offer").src = "https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg";
+        }
+    </script>
+</head>
+
+<body>
+    <img id="pic" onmouseover="Ad1()" onmouseout="Ad2()" src="https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg" width="400" height="100">
+    <p>Mouse over to change Ad.</p>
+    <div>
+        <img onmousedown="ShowOffer()" onmouseup="HideOffer()" id="offer" src="https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg">
+    </div>
+</body>
+
+</html>
