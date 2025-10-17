@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILL</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Registration</h1>
+    </header>
+    <form>
+        <div style="border: black 1px solid; padding: 30px; margin: 5px;">
+            <h2>Customer Info</h2>
+            <label for="cname">Customer Name:</label>
+            <input type="text" name="cname" placeholder="Customer Name" id = "name"><br><br>
+            <label for = "checkin">Check in Date:</label>
+            <input type="date" name="checkin"  id = "checkIn"><br><br>
+            <label for = "numberOfDays">Number of Days:</label>
+            <input type="number" name="numberOfDays" placeholder="Number of Days"  id = "numberOfDays"><br><br>
+            <label for = "numberOfPeople">Number of People:</label>
+            <input type="number" name="numberOfPeople" placeholder="Number of People"  id = "numberOfPeople"><br><br>
+        </div>
+        <div style="border: black 1px solid; padding: 30px; margin: 5px;">
+            <h2>Room Type</h2>
+            <div style="display: inline-block; width: 45%; text-align: center;">
+                <img src="">
+                <input type="radio" name="roomType" value="Delux Room">
+                <label for="standardRoom">Delux Room</label>
+            </div>
+            <div style="display: inline-block; width: 45%; text-align: center;">
+                <img src="">
+                <input type="radio" name="roomType" value="Suite Room">
+                <label for="suiteRoom">Suite Room</label>
+            </div>
+        </div>
+
+        <div style="border: black 1px solid; padding: 30px;  margin: 5px;">
+            <h2>Aminities</h2>
+            <div style="display: inline-block; width: 45%; text-align: center;">
+                <img src="">
+                <input type="checkbox" name="roomType" value="Locker">
+                <label for="standardRoom">Locker</label>
+            </div>
+            <div style="display: inline-block; width: 45%; text-align: center;">
+                <img src="">
+                <input type="checkbox" name="roomType" value="AC">
+                <label for="suiteRoom">AC</label>
+            </div>
+        </div>
+
+        <div style="border: black 1px solid; padding: 30px; text-align: center;  margin: 5px;">
+            <h2>Advance</h2>
+            <input type="number" name="advance" placeholder="Advance Amount"><br><br>
+            <label for="advance">Mandatory</label>
+        </div>
+        <div class="button">
+            <button type="button" onclick="generateBill()">Register</button>
+        </div>
+    </form>
+
+    <div id="bill">
+        <h3>Bill Summary</h3>
+        <div id="billContent"></div>
+    </div>
+
+    <script>
+        function generateBill() {
+            var customerName = document.getElementsById("name").value;
+            var checkInDate = document.getElementsById("checkIn").value;
+            var numberOfDays = document.getElementsById("numberOfDays").value;
+            var numberOfPeople = document.getElementsById("numberOfPeople").value;
+
+            let bill = `
+            <p><strong>Customer Name:</strong> ${customerName}</p>
+            <p><strong>Check In Date:</strong> ${checkInDate}</p>
+            <p><strong>Number of Days:</strong> ${numberOfDays}</p>
+            <p><strong>Number of People:</strong> ${numberOfPeople}</p>
+            `
+            document.getElementById("billContent").innerHTML = bill;
+            document.getElementById("bill").style.display = "block";
+
+        }
+
+    </script>
+</body>
+</html>
