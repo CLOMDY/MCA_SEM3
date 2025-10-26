@@ -1,0 +1,357 @@
+/* ==========================
+   Global Reset
+   ========================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ==========================
+     Container
+     ========================== */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ==========================
+     Links
+     ========================== */
+a {
+  color: #ff5f6d;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ffc371;
+  text-decoration: underline;
+}
+
+/* ==========================
+     Header & Navigation
+     ========================== */
+header {
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  color: white;
+  padding: 25px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+/* ==========================
+     Main Content
+     ========================== */
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #ff5f6d;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ffc371;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* ==========================
+     Cards / Forms
+     ========================== */
+.card {
+  background: white;
+  width: 100%;
+  margin: 20px 0;
+  padding: 35px 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* ==========================
+     Inputs & Buttons
+     ========================== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+button {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 95, 109, 0.5);
+  border: 1px solid #ff5f6d;
+}
+
+button {
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(255, 95, 109, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ffc371, #ff5f6d);
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* ==========================
+     Messages
+     ========================== */
+.msg {
+  padding: 12px 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background: #ffefef;
+  color: #ff5f6d;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(255, 95, 109, 0.2);
+  text-align: center;
+}
+
+/* ==========================
+     Tables
+     ========================== */
+table {
+  width: 100%;
+  margin: 30px 0;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 15px 20px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+th {
+  background: #ff5f6d;
+  color: white;
+  font-size: 1rem;
+}
+
+tr:nth-child(even) {
+  background: #fff7f5;
+}
+
+tr:hover {
+  background: #ffe8e2;
+}
+
+/* ==========================
+     Voting / Radio Options
+     ========================== */
+label {
+  display: block;
+  background: #fff7f5;
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #ffd8c2;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+label:hover {
+  background: #ffe0d4;
+}
+
+input[type="radio"] {
+  margin-right: 12px;
+}
+
+/* ==========================
+     Candidate Form
+     ========================== */
+.candidate-form input {
+  padding: 14px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  box-sizing: border-box;
+  height: 50px; /* ensures equal height */
+}
+
+.candidate-form input:focus {
+  border-color: #ff9900;
+  box-shadow: 0 0 5px rgba(255, 153, 0, 0.5);
+}
+
+.candidate-form .input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.candidate-form .input-row input[type="text"],
+.candidate-form .input-row input[type="url"] {
+  flex: 1; /* equal width, same height */
+}
+
+.candidate-form button {
+  width: 100%;
+  padding: 14px;
+  background: #ff9900;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.candidate-form button:hover {
+  background: #e68a00;
+}
+
+/* ==========================
+     Candidate Vote Cards
+     ========================== */
+.vote-card {
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.candidates-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.candidate-vote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.candidate-vote:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.candidate-vote input[type="radio"] {
+  margin-bottom: 10px;
+  transform: scale(1.3);
+}
+
+.candidate-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.candidate-img.placeholder {
+  background: #eee;
+  display: block;
+}
+
+.candidate-vote span {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ==========================
+     Responsive
+     ========================== */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .candidate-form .input-row {
+    flex-direction: column;
+  }
+}
+
+input:hover {
+  border-color: #ff5f6d; /* border changes color */
+  box-shadow: 0 0 8px rgba(255, 153, 0, 0.4); /* subtle glow */
+  transform: translateY(-1px); /* slight lift effect */
+  transition: all 0.3s ease; /* smooth transition */
+}
