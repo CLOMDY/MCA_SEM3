@@ -259,3 +259,72 @@
 01:47:58 PM  [main] 	Deinitializing Modules
 01:47:58 PM  [main] 	Deinitializing Control Panel
 
+01:09:53 AM  [main] 	Initializing Control Panel
+01:09:53 AM  [main] 	Windows Version:  Home  64-bit
+01:09:53 AM  [main] 	XAMPP Version: 8.2.12
+01:09:53 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+01:09:53 AM  [main] 	Running with Administrator rights - good!
+01:09:53 AM  [main] 	XAMPP Installation Directory: "c:\users\coold\vscode\sem 3\php\"
+01:09:53 AM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+01:09:53 AM  [main] 	Checking for prerequisites
+01:09:53 AM  [main] 	All prerequisites found
+01:09:53 AM  [main] 	Initializing Modules
+01:09:53 AM  [Apache] 	XAMPP Apache Service is already running on port 80
+01:09:53 AM  [Apache] 	XAMPP Apache Service is already running on port 443
+01:09:53 AM  [mysql] 	XAMPP MySQL Service is already running on port 3306
+01:09:53 AM  [Tomcat] 	Problem detected!
+01:09:53 AM  [Tomcat] 	Port 8080 in use by "C:\oraclexe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe"!
+01:09:53 AM  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+01:09:53 AM  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+01:09:53 AM  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+01:09:53 AM  [main] 	Starting Check-Timer
+01:09:53 AM  [main] 	Control Panel Ready
+04:51:14 AM  [main] 	Deinitializing Modules
+04:51:14 AM  [main] 	Deinitializing Control Panel
+
+12:55:52 AM  [main] 	Initializing Control Panel
+12:55:52 AM  [main] 	Windows Version:  Home  64-bit
+12:55:52 AM  [main] 	XAMPP Version: 8.2.12
+12:55:52 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+12:55:52 AM  [main] 	Running with Administrator rights - good!
+12:55:52 AM  [main] 	XAMPP Installation Directory: "c:\users\coold\vscode\sem 3\php\"
+12:55:52 AM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+12:55:52 AM  [main] 	Checking for prerequisites
+12:55:52 AM  [main] 	All prerequisites found
+12:55:52 AM  [main] 	Initializing Modules
+12:55:52 AM  [Apache] 	XAMPP Apache Service is already running on port 80
+12:55:52 AM  [Apache] 	XAMPP Apache Service is already running on port 443
+12:55:52 AM  [mysql] 	XAMPP MySQL Service is already running on port 3306
+12:55:52 AM  [Tomcat] 	Problem detected!
+12:55:52 AM  [Tomcat] 	Port 8080 in use by "C:\oraclexe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe"!
+12:55:52 AM  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+12:55:52 AM  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+12:55:52 AM  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+12:55:52 AM  [main] 	Starting Check-Timer
+12:55:52 AM  [main] 	Control Panel Ready
+04:51:14 AM  [main] 	Deinitializing Modules
+04:51:14 AM  [main] 	Deinitializing Control Panel
+
+12:30:37 AM  [main] 	Initializing Control Panel
+12:30:37 AM  [main] 	Windows Version:  Home  64-bit
+12:30:37 AM  [main] 	XAMPP Version: 8.2.12
+12:30:37 AM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+12:30:37 AM  [main] 	Running with Administrator rights - good!
+12:30:37 AM  [main] 	XAMPP Installation Directory: "c:\users\coold\vscode\sem 3\php\"
+12:30:37 AM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+12:30:37 AM  [main] 	Checking for prerequisites
+12:30:37 AM  [main] 	All prerequisites found
+12:30:37 AM  [main] 	Initializing Modules
+12:30:37 AM  [Apache] 	XAMPP Apache Service is already running on port 80
+12:30:37 AM  [Apache] 	XAMPP Apache Service is already running on port 443
+12:30:37 AM  [mysql] 	XAMPP MySQL Service is already running on port 3306
+12:30:37 AM  [Tomcat] 	Problem detected!
+12:30:37 AM  [Tomcat] 	Port 8080 in use by "C:\oraclexe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe"!
+12:30:37 AM  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+12:30:37 AM  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+12:30:37 AM  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+12:30:37 AM  [main] 	Starting Check-Timer
+12:30:37 AM  [main] 	Control Panel Ready
+04:51:14 AM  [main] 	Deinitializing Modules
+04:51:14 AM  [main] 	Deinitializing Control Panel
+
