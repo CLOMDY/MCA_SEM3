@@ -361,3 +361,15 @@
 [Mon Oct 27 02:00:24.151269 2025] [php:warn] [pid 9040:tid 1920] [client ::1:64414] PHP Warning:  Undefined array key "img_url" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\online_voting\\admin.php on line 86, referer: http://localhost/online_voting/admin.php
 [Mon Oct 27 02:00:24.151269 2025] [php:warn] [pid 9040:tid 1920] [client ::1:64414] PHP Warning:  Undefined array key "img_url" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\online_voting\\admin.php on line 86, referer: http://localhost/online_voting/admin.php
 [Mon Oct 27 02:00:24.151269 2025] [php:warn] [pid 9040:tid 1920] [client ::1:64414] PHP Warning:  Undefined array key "img_url" in C:\\Users\\coold\\VSCODE\\SEM 3\\PHP\\htdocs\\online_voting\\admin.php on line 86, referer: http://localhost/online_voting/admin.php
+[Mon Oct 27 12:21:23.645418 2025] [mpm_winnt:notice] [pid 5464:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 27 12:21:25.663129 2025] [mpm_winnt:notice] [pid 9040:tid 480] AH00364: Child: All worker threads have exited.
+[Mon Oct 27 12:21:25.739699 2025] [mpm_winnt:notice] [pid 5464:tid 396] AH00430: Parent: Child process 9040 exited successfully.
+[Mon Oct 27 12:21:50.189005 2025] [ssl:warn] [pid 7136:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 27 12:21:50.256106 2025] [ssl:warn] [pid 7136:tid 476] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 27 12:21:50.400788 2025] [mpm_winnt:notice] [pid 7136:tid 476] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Oct 27 12:21:50.400788 2025] [mpm_winnt:notice] [pid 7136:tid 476] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Oct 27 12:21:50.400788 2025] [core:notice] [pid 7136:tid 476] AH00094: Command line: 'C:\\Users\\coold\\vscode\\sem 3\\php\\apache\\bin\\httpd.exe -d C:/Users/coold/VSCODE/SEM 3/PHP/apache'
+[Mon Oct 27 12:21:50.403308 2025] [mpm_winnt:notice] [pid 7136:tid 476] AH00418: Parent: Created child process 12084
+[Mon Oct 27 12:21:50.902046 2025] [ssl:warn] [pid 12084:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 27 12:21:50.952913 2025] [ssl:warn] [pid 12084:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 27 12:21:51.014938 2025] [mpm_winnt:notice] [pid 12084:tid 456] AH00354: Child: Starting 150 worker threads.
