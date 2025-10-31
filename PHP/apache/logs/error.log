@@ -373,3 +373,4 @@
 [Mon Oct 27 12:21:50.902046 2025] [ssl:warn] [pid 12084:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 27 12:21:50.952913 2025] [ssl:warn] [pid 12084:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 27 12:21:51.014938 2025] [mpm_winnt:notice] [pid 12084:tid 456] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 31 12:35:06.415248 2025] [php:error] [pid 12084:tid 1936] [client ::1:57324] script 'C:/Users/coold/VSCODE/SEM 3/PHP/htdocs/online_voting/resgister.php' not found or unable to stat

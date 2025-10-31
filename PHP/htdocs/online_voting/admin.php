@@ -56,9 +56,6 @@ $users = mysqli_query($connect, "SELECT * FROM users");
                 <button type="submit" name="new_candidate">Add Candidate</button>
             </form>
 
-
-
-
             <h3>Registered Users</h3>
             <table>
                 <tr>
@@ -104,8 +101,28 @@ $users = mysqli_query($connect, "SELECT * FROM users");
             </table>
 
 
-            <p><a href="admin.php?reset_votes=1">Reset All Votes</a></p>
-            <p><a href="index.php">Back to Home</a></p>
+            <p><a href="admin.php?reset_votes=1" style="display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background: #ff9900;
+  color: white;
+  font-weight: bold;
+  padding: 14px;
+  border-radius: 8px;
+  transition: background 0.3s;">Reset All Votes</a></p>
+            <p><a href="index.php" style="display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background: #ff9900;
+  color: white;
+  font-weight: bold;
+  padding: 14px;
+  border-radius: 8px;
+  transition: background 0.3s;">Back to Home</a></p>
         </div>
     </div>
 </body>

@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAR1 + VAR2</title>
+    <script>
+        function addValues() {
+            var val1 = parseInt(document.getElementsByName("val")[0].value);
+            var val2 = parseInt(document.getElementsByName("val")[1].value);
+            var sum = val1 + val2;
+            document.getElementsByName("val")[2].value = sum;
+        }
+    </script>
+</head>
+<body>
+    value1 = <input type="text" id="var1" value="0" name = "val"><br><br>
+    value2 = <input type="text" id="var2" value="0" name = "val"><br><br>
+    <button onclick="addValues()">Add Values</button><br><br>
+    Result = <input type="text" id="result" value="0" name = "val" readonly><br><br>
+</body>
+</html>
