@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onFocus</title>
+    <script>
+        function myFunction1() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+        function myFunction2() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toLowerCase();
+        }
+    </script>
+</head>
+<body>
+    Enter your name: <input type="text" id="fname" onblur="myFunction1()" onfocus="myFunction2()">
+    <p>Press tab after entering your name.</p>
+</body>
+</html>
