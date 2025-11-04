@@ -18,7 +18,7 @@ const students = [
 ];
 
 console.log("Original Array:", students);
-const filteredStudents = students.filter(student => student.age > 21);
-const sortedStudents = filteredStudents.sort((a, b) => b.score - a.score);
+const FS = students.filter(student => student.age > 21);
+const SS = FS.sort((a, b) => b.score - a.score);
 
-console.log("Array after applying filter and sort:", sortedStudents);
+console.log("Array after applying filter and sort:", SS);
