@@ -14,7 +14,7 @@
 const students = [
     {name: "Aadarsh", age: 24, score: 90},
     {name: "Aditya", age: 24, score: 5},
-    {name: "Bhavya", age: 20, score: 80},
+    {name: "Sneha", age: 20, score: 80},
 ];
 
 console.log("Original Array:", students);
