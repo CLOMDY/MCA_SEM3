@@ -13,4 +13,12 @@
 
 const students = [
     {name: "Aadarsh", age: 24, score: 90},
-    
+    {name: "Aditya", age: 24, score: 5},
+    {name: "Bhavya", age: 20, score: 80},
+];
+
+console.log("Original Array:", students);
+const filteredStudents = students.filter(student => student.age > 21);
+const sortedStudents = filteredStudents.sort((a, b) => b.score - a.score);
+
+console.log("Array after applying filter and sort:", sortedStudents);
