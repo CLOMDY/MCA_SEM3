@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>JavaScript RegExp global Property</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var re = new RegExp("string");
+        if (re.global) {
+            document.write("Test1 - Global property is set");
+        } else {
+            document.write("Test1 - Global property is not set");
+        }
+        re = new RegExp("string", "g");
+        if (re.global) {
+            document.write("<br />Test2 - Global property is set");
+        } else {
+            document.write("<br />Test2 - Global property is not set");
+        }
+    </script>
+</body>
+
+</html>
