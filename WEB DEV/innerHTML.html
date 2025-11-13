@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerHTML</title>
+    <script>
+        function myFunc(){
+            var ret = document.getElementsByTagName("title");
+            alert("Document Title: " + ret[0].text);
+
+            var ret = document.getElementbyId("heading");
+            alert("Document Heading: " + ret.innerHTML);
+        }
+    </script>
+</head>
+<body>
+    <h1 id = "heading">This is main title</h1>
+    <p>Click the following to see the result:</p>
+    <form id = "form1" name = "FirstForm">
+        <input type = "button" value = "Click Me" onclick = "myFunc()"/>
+        <input type = "button" value = "cancel">
+    </form>
+
+    <form id = "form2" name = "SecondForm">
+        <input type = "button" value = "Don't Click Me">
+    </form>
+</body>
+</html>
