@@ -440,3 +440,5 @@
 [Thu Nov 13 12:00:26.858174 2025] [core:notice] [pid 6336:tid 424] AH00094: Command line: 'C:\\Users\\coold\\vscode\\sem 3\\php\\apache\\bin\\httpd.exe -d C:/Users/coold/VSCODE/SEM 3/PHP/apache'
 [Thu Nov 13 12:00:26.860182 2025] [mpm_winnt:notice] [pid 6336:tid 424] AH00418: Parent: Created child process 9716
 [Thu Nov 13 12:00:27.247895 2025] [ssl:warn] [pid 9716:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 13 12:00:27.285212 2025] [ssl:warn] [pid 9716:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 13 12:00:27.328213 2025] [mpm_winnt:notice] [pid 9716:tid 492] AH00354: Child: Starting 150 worker threads.
