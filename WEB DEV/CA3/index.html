@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CA3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>CA3</h2>
+    <p id="timer">Time Left: 10</p>
+
+    <div id="quizBox">
+        <h3 id="questionText"></h3>
+        <div id="options"></div>
+        <button id="nextBtn" style="width: 100%; background-color: greenyellow;">Next</button>
+    </div>
+
+    <div id="resultBox" style="display:none;">
+        <h2>Quiz Results</h2>
+        <p id="scoreText"></p>
+        <h3>Answer Summary:</h3>
+        <div id="summary"></div>
+        <button onclick="location.reload()" style="width: 100%;">Restart Quiz</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
